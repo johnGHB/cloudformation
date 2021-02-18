@@ -1,6 +1,7 @@
---
+---
 Resources:
-   MyS3Bucket:
+  MyS3Bucket:
      Type: "AWS::S3::Bucket"
-     Properties: {}
+     Properties:
+        AccessControl: PublicRead
 
